@@ -1,5 +1,4 @@
 from config.default import _C
-from . import *
 from detectron2.config import get_cfg
 from detectron2.engine import default_argument_parser, default_setup, hooks, launch
 from util.trainer import Trainer
