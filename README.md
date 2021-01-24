@@ -4,6 +4,8 @@
 
 ## Guide
 
+### Training
+
 1. Prepare a COCO dataset format json file (Ex: total_text.json)
 2. The dataset should have annotations such as
    1. width
@@ -12,4 +14,9 @@
    4. image_id
 3. Download the dataset and create directory to place the training images (Ex: Images/Train)
 4. Run `python train.py` to train the model
-5. Once finish, run `python inference.py`
+
+### Inference
+
+1. For inference
+
+`python inference.py --input <IMAGEDIR> --output <OUTPUTDIR> --weights-file <WEIGHTFILE> --config-file <CONFIG_FILE>`
