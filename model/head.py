@@ -1,3 +1,5 @@
+from torch import nn
+
 def build_top_module(cfg):
     top_type = cfg.MODEL.TOP_MODULE.NAME
     if top_type == "conv":
