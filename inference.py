@@ -68,6 +68,8 @@ def get_parser():
 if __name__ == "__main__":
     args = get_parser().parse_args()
 
+    print(args)
+
     cfg = setup_cfg(args)
     metadata = MetadataCatalog.get("__unused")
     predictor = DefaultPredictor(cfg)
