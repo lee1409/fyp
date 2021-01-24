@@ -1,4 +1,4 @@
-from .model.config.default import _C
+from model.config.default import _C
 import argparse
 import os
 import glob
