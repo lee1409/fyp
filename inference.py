@@ -1,4 +1,4 @@
-from config.default import _C
+from .model.config.default import _C
 import argparse
 import os
 import glob
@@ -8,8 +8,6 @@ import time
 from detectron2.engine.defaults import DefaultPredictor
 from detectron2.utils.visualizer import Visualizer
 from detectron2.data import MetadataCatalog
-from model import *
-
 
 def setup_cfg(args):
     cfg = _C.clone()
