@@ -7,9 +7,9 @@ from torch.nn import functional as F
 from detectron2.layers import ShapeSpec
 from detectron2.modeling.proposal_generator.build import PROPOSAL_GENERATOR_REGISTRY
 
-from util.layer import DFConv2d
-from util.iou_loss import IOULoss
-from output import BTextOutputs
+from .util.layer import DFConv2d
+from .util.iou_loss import IOULoss
+from .output import BTextOutputs
 
 
 INF = 100000000

@@ -14,8 +14,8 @@ from detectron2.data.dataset_mapper import DatasetMapper
 from detectron2.data.detection_utils import SizeMismatchError
 from detectron2.structures import BoxMode
 
-from training.random_crop import RandomCropWithInstance
-from training.aug import annotations_to_instances, build_augmentation, transform_instance_annotations
+from .random_crop import RandomCropWithInstance
+from .aug import annotations_to_instances, build_augmentation, transform_instance_annotations
 
 
 logger = logging.getLogger(__name__)

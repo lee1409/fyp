@@ -3,7 +3,7 @@ from detectron2.checkpoint import DetectionCheckpointer
 from detectron2.config import get_cfg
 from detectron2.data import MetadataCatalog
 from detectron2.engine import DefaultTrainer, default_argument_parser, default_setup, hooks, launch
-from training.dataset_mapper import DatasetMapperWithBasis
+from ..training.dataset_mapper import DatasetMapperWithBasis
 from detectron2.data import MetadataCatalog, build_detection_train_loader
 
 
